@@ -2,8 +2,10 @@ import { createRouter, createWebHistory } from 'vue-router';
 import TabelaDiversos from './components/TabelaDiversos.vue';
 import ImagensDiversas from './components/ImagensDiversas.vue';
 import VideoUnico from './components/VideoUnico.vue';
+import HelloWorld from './components/HelloWorld.vue';
 
 const routes = [
+  { path: "/", component: HelloWorld },
   { path: '/video', component: VideoUnico },
   { path: '/tabela', component: TabelaDiversos },
   { path: '/imagens', component: ImagensDiversas },
