@@ -11,7 +11,7 @@
     <table class="custom-table">
       <thead>
         <tr>
-          <th>Sabor</th>
+          <th>Filme</th>
           <th>data de lançamento</th>
           <th>História</th>
           <th>Imagem</th>
@@ -54,17 +54,26 @@
           <td>Enquanto cuida de duas crianças no halloween, uma babá encontra uma antiga fita VHS no saco de doces. O filme apresenta três contos de terror, todos ligados entre si por um palhaço assassino. Ao longo da noite, coisas estranhas começam a acontecer na casa e a presença do palhaço parece cada vez mais real.</td>
           <td><img src="/assets/terrefier.jpg" class="imgTabela" alt="Terrifier"></td>
         </tr>
-        <tr>
-        <td><img src="/assets/festival.jpg" class="imgTabela" alt="festival"></td>
-      </tr>
+        
+        
+      
       </tbody>
     </table>
 
+    
+    <tr>
+<td><img src="/assets/carcaca.jpg" class="imgTabela" alt="Carcaça"></td>
+
+<td><img src="/assets/festival.jpg" class="imgTabela" alt="festival"></td>
+
+<td><img src="/assets/bloqueio.jpg" class="imgTabela" alt="bloqueio"></td>
+</tr>
     
 
     <iframe width="976" height="549" src="https://www.youtube.com/embed/Amy6cl9vi88" title="OS 15 MELHORES FILMES DE TERROR DE 2022 | Omelista" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </div>
 </template>
+
 
 <script>
 export default {
@@ -113,7 +122,7 @@ h2 {
 }
 
 .imgTabela {
-  height: 80px;
+  height: 90px;
   width: auto;
 }
 
